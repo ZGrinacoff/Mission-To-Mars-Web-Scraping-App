@@ -129,8 +129,8 @@ def scrape():
     # Set index to 'Description'.
     df_mars_facts.set_index('Description', inplace=True)
 
-    # Convert DF to html and save in Resources Folder.
-    df_mars_facts.to_html('Resources/mars_facts.html')
+    # # Convert DF to html and save in Resources Folder.
+    # df_mars_facts.to_html('Resources/mars_facts.html')
 
     # Convert DF to HTML string.
     mars_facts = df_mars_facts.to_html(header=True, index=True)
