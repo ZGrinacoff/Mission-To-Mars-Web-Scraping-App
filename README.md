@@ -12,3 +12,7 @@ A web application that scrapes various websites for data related to the Mission 
 * templates(Folder) ---> HTML webpage used for Mission to Mars that displays the information from our web application scrape.
 
 * Screenshots(Folder) ---> Four total JPG images of the Mission to Mars web HTML web page app.
+
+## How to use:
+
+In order to run application, please navigate to directory via console. Run mars_app.py as Python file.
